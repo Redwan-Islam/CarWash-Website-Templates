@@ -1,0 +1,69 @@
+body {
+  background-image: linear-gradient(to right, #ff5722, #ff9800);
+  margin-top: 150px !important;
+}
+.transaction-left {
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+}
+.transaction-left img {
+  margin-top: 50px;
+  margin-bottom: 15px;
+  width: 80px;
+  animation: mover 1s infinite alternate;
+}
+.transaction-left p {
+  padding: 20px 20px 0;
+}
+.transaction-left .btn-primary {
+  border-radius: 1.5rem;
+  border: none;
+  width: 120px;
+  background: #f8f8f8;
+  font-weight: 600;
+  color: #555;
+  margin-top: 20px;
+  padding: 10px;
+}
+.transaction-left .btn-primary:hover {
+  background: #000;
+}
+.transaction-right {
+  border: none;
+  background: #f8f8f8;
+
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+  padding: 50px;
+}
+.transaction-right h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #555;
+}
+.transaction-form {
+  padding: 30px;
+}
+.transaction-right .btn-primary {
+  float: right;
+  border-radius: 1.5rem;
+  border: none;
+  width: 120px;
+  background: #ff9800;
+  font-weight: 600;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px;
+}
+.transaction-right .btn-primary:hover {
+  background: #ff5722;
+}
+@keyframes mover {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-30px);
+  }
+}
